@@ -1,0 +1,624 @@
+body{
+	height: 100%;
+	width:100%;
+}
+
+.stackScroller{
+	background-image: url(images/absurdidad.png);
+}
+
+.stackPanelItem{
+	width: 100%;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+	border-bottom: 1px solid blue; 
+	border-top: 1px solid blue;
+	outline: 0;
+	background-image: url(images/absurdidad.png);
+}
+
+/*.myDialogBox. Caption{
+	color: white;
+	background: blue;
+}*/
+
+.gwt-TextBox-required{
+	content:"*";
+	color: red;
+}
+.stackPanelItem:hover{
+	background:#62d8ff;
+	color:#fff;
+	cursor:pointer;
+	cursor: hand;
+}
+
+.link{
+	font-size: 12px;
+}
+
+.link:hover{
+	background:#d8d8da;
+	color:#fff;
+	cursor:pointer;
+	cursor: hand;
+}
+
+.link:focus{
+	background:#ffff9b;
+	color:black;
+}
+
+.headerme:hover{
+	background:#0000ff;
+	color:#fff;
+	cursor:pointer;
+	cursor: hand;
+}
+
+.stackPanelItem:FOCUS{
+	background:#ffff9b;
+	color:black;
+}
+
+.stackLayoutPanel{
+	/*border: 1px solid #c0c0c0;*/
+	overflow: auto;
+}
+
+.stackPanelLabel{
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 110%;
+	padding: 6px;
+	color: black;
+
+}
+
+.stackPanelLabel:HOVER{
+	background:#62d8ff;
+	color:#fff;
+	cursor:pointer;
+	cursor: hand;
+}
+
+.gwt-StackLayoutPanel{
+	
+	height:100%;
+	outline: 1;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    background-image: url(images/absurdidad.png);
+}
+.gwt-StackLayoutPanel .gwt-StackLayoutPanelHeader{
+  	font-weight: bold;
+  	font-size: 120%;
+	color:#09C;
+	background-color: blue;
+  	/*-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;*/
+}
+.gwt-StackLayoutPanel .gwt-StackLayoutPanelHeader-hovering{
+	background:#09C;
+	color:black;
+}
+.gwt-StackLayoutPanel .gwt-StackLayoutPanelContent{
+	/*border: 1px solid #bbbbbb;*/
+  	border-bottom: 0px;
+  	background: white;
+  	padding: 2px 2px 10px 5px;
+  	width:100%;
+}
+
+.myHTML{
+	/*padding: 10px;*/
+	font-size: 120%;
+	font-family: Verdana;
+}
+
+.loadingPanel {
+	display:block;
+	margin: auto;
+	text-align: right;
+	padding-left: 600px;
+}
+
+.gwt-DecoratorPanel {
+	
+}
+
+.rootPanel{
+	
+}
+
+.infoLabel{
+	font-family: Verdana, Geneva, sans-serif;
+    /*background-color: #D0E4F6;*/
+    padding: 5px;
+	font-size: 20px;
+	color: #005284;
+}
+
+.tipLabel{
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 5px;
+	font-style: italic;
+	font-size: 12px;
+}
+.tipTable{
+   	height : 40px;
+    width: 100%;
+    padding-left : 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+    font-family: arial;
+    color : #000000;
+   	border: 1px solid #c0c0c0;
+    background-color: #ffffd9;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+	background-image: url(images/absurdidad.png);
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    border: 1px solid;
+ 	border-color: #c4c4c4 #d1d1d1 #d4d4d4;  
+ 	background-color:blue; 
+ 	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+.header img {
+    float: left;
+    margin-left: 30px;
+    max-height: 100px;
+}
+
+.headerText {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.headerText :FIRST-LETTER{
+	color: red;
+}
+
+.myLabel {
+    float:left;
+    font-size:14px;
+    line-height:24px;
+
+}
+.center {
+    margin: 0 auto;
+    margin-top: 50px;
+    /*margin-bottom: 200px;*/
+}
+#loading {
+	display: block;
+	position: absolute;
+	top: 30%;
+	left: 48%;
+	text-align: center;
+	margin-left: 0px;
+}
+#loading2 {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 48%;
+	text-align: center;
+	margin-left: 0px;
+}
+#writing {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 48%;
+	text-align: center;
+	margin-left: 0px;
+}
+#loading loading {
+    background: white;
+    font: bold 13px tahoma, arial, helvetica;
+    padding: 10px;
+    margin: 0;
+    height: auto;
+    color: #444;
+}
+#loading .loadingIndicator {
+    background: white;
+    font: bold 13px tahoma, arial, helvetica;
+    padding: 10px;
+    margin: 0;
+    height: auto;
+    color: #444;
+}
+.saveButton {
+/*width:150px;*/
+padding-left: 8px;
+padding-right: 8px;
+font-weight: bold;
+background:#09C;
+color:#fff;
+font-family: Tahoma, Geneva, sans-serif;
+height:30px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 5px;
+border: 1p solid #999;
+}
+.saveButton:hover {
+background:#fff;
+color:#09C;
+}
+.gwt-PopupPanelOverride {
+  border: 6px solid #a6b3cf;
+  padding: 3px;
+  background: white;
+}
+.gwt-Tree .gwt-TreeItem {
+	border-left: 1px dotted #005284;
+    background: white; 
+    /*background: -moz-linear-gradient(top,#a6b3cf 0,#a6b3cf 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#a6b3cf),color-stop(100%,#a6b3cf));
+    background: -webkit-linear-gradient(top,#a6b3cf 0,#a6b3cf 100%);
+    background: -o-linear-gradient(top,#a6b3cf 0,#a6b3cf 100%);
+    background: -ms-linear-gradient(top,#a6b3cf 0,#a6b3cf 100%);
+    background: linear-gradient(top,#a6b3cf 0,#a6b3cf 100%);
+    border: 1px solid;*/
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #000000 !important;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 1.3;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none !important;
+    /*text-shadow: 1px 1px 1px #076BD2;*/
+    cursor: pointer;
+    cursor: hand;
+    width: 200px
+    
+    /*white-space: nowrap;*/
+}
+
+.gwt-Tree .gwt-TreeItem:hover {
+    background: #639BCE;
+}
+
+.gwt-Tree .gwt-TreeItem-Selected {
+    background: red;
+    color: white;
+}
+.menuButton {
+    background: #a6b3cf; 
+    background: -moz-linear-gradient(top,#a6b3cf 0,#a6b3cf 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#a6b3cf),color-stop(100%,#a6b3cf));
+    background: -webkit-linear-gradient(top,#a6b3cf 0,#a6b3cf 100%);
+    background: -o-linear-gradient(top,#a6b3cf 0,#a6b3cf 100%);
+    background: -ms-linear-gradient(top,#a6b3cf 0,#a6b3cf 100%);
+    background: linear-gradient(top,#a6b3cf 0,#a6b3cf 100%);
+    border: 1px solid;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: white !important;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.3;
+    text-align: center;
+    text-decoration: none !important;
+    text-shadow: 1px 1px 1px #076BD2;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.menuButton:hover {
+    background: #4F80A7;
+}
+div.bannerPanel {
+    background: #3D8ECE;
+    background: -moz-linear-gradient(top,#4F80A7 0,#3D8ECE 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#4F80A7),color-stop(100%,#3D8ECE));
+    background: -webkit-linear-gradient(top,#4F80A7 0,#3D8ECE 100%);
+    background: -o-linear-gradient(top,#4F80A7 0,#3D8ECE 100%);
+    background: -ms-linear-gradient(top,#4F80A7 0,#3D8ECE 100%);
+    background: linear-gradient(top,#4F80A7 0,#3D8ECE 100%);
+    border: 1px solid #076BD2;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: white !important;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding: 2px 25px;
+    text-align: center;
+    text-decoration: none !important;
+    text-shadow: 1px 1px 1px #076BD2;
+    width: 100%;
+    height: 30px;
+}
+.navigationPanel {
+	/*background-image: url(images/absurdidad.png);*/
+    background-attachment: scroll;
+    background-clip: border-box;
+    /*background-color: #D7DDE8; */
+    background-origin: padding-box;
+    border-bottom-color: black;
+    border-bottom-style: none;
+    border-bottom-width: 1px;
+    border-left-color: black;
+    border-left-style: none;
+    border-left-width: 1px;
+    border-right-color: black;
+    border-right-style: none;
+    border-right-width: 1px;
+    border-top-color: black;
+    border-top-style: none;
+    border-top-width: 1px;
+   
+    color: black;
+    direction: ltr;
+    display: block;
+    font-family: 'Arial Unicode MS', Arial, sans-serif;
+    font-size: 11px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 209px;
+}
+
+.empty{
+	
+}
+
+#statusMessage .gwt-Label {
+    color: black;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+}
+.clickableElement {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+.clickableElement:hover{
+	color:red;
+}
+
+.centerInfo {
+    height : 35px;
+    width: 100%;
+    padding-left : 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: arial;
+    color : #000000;
+   	border: 1px solid #c0c0c0;
+    background-color: #e3e9f3;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+	background-image: url(images/absurdidad.png);
+}
+td.contacts-ListContainer {
+    padding: 6px;
+}
+
+#warningMessage {
+    border: 1px dashed black;
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+#errorMessage {
+    border: 1px dashed green;
+    color: red;
+    background-color: #f8dfcf;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+#statusMessage {
+    border: 1px dashed red;
+    color: black;
+    background-color: #a3e9a3;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+#warningMessage .gwt-Label {
+    color: black;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+}
+
+.images{
+	background-image: url(images/back.png);
+	border-right: 1px dashed black;
+	width: 100%;
+	height:100%;
+}
+
+#errorMessage .gwt-Label {
+    color: red;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+}
+
+.rightSideView{
+	width:100%;
+	height:100%;
+}
+
+.largeScreen{
+	height:100%;
+	width:100%;
+}
+
+.scrollPanel{
+	height:100%;
+	width:100%;
+	/*background-image: url(images/absurdidad.png);*/
+}
+
+.centerView{
+	width: 100%;
+	height: 100%;
+	padding-top: 5px;
+	padding-left:5px;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.infoText {
+    /*background-color: #c3dfeb;*/
+    padding: 5px;
+   /* height : 25px;*/
+    font-size: 16px;
+    font-family: serif;
+    padding-left: 10px;
+   /* border: 1px solid #09C;*/
+}
+.decorator {
+    font-size: 16px;
+    font-family: serif;
+    padding: 10px;
+    /*border: 1px solid #09C;*/
+}
+.formTable {
+	
+}
+.formTable .gwt-Label {
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: serif;
+}
+.formTable .gwt-TextBox {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.formTable input.gwt-TextBox {
+    /*width:300px;*/
+    margin-bottom:5px;
+    line-height:20px;
+    padding:2px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #CCC;
+}
+
+.gwt-TextBox {
+	margin: 1px;
+  	font-size: 16px;
+  	width: 250px;
+  	height: 18px;
+}
+
+.gwt-PasswordTextBox{
+	margin: 1px;
+  	font-size: 16px;
+  	width: 250px;
+  	height: 18px;
+}
+
+.gwt-ListBox{
+	margin: 1px;
+  	font-size: 18px;
+  	width: 248px;
+  	height: 20px;
+}
+
+.gwt-TextArea{
+margin: 5px;
+  font-size: 18px;
+  width: 250px;
+  height: 60px;
+}
+
+.gwt-DateBox{
+	margin: 1px;
+  font-size: 18px;
+  width: 252px;
+  height: 26px;
+}
+
+.greeting {
+	font-size: 16px;
+	color:white;
+}
+
+.white{
+	color:white;
+}
+
+.panelPager{
+  display: inline-block;
+  padding-right: 20px;
+  float: right;
+}
+    
+.content{
+	display: block;
+	margin-top: -50px !important;
+	margin-bottom: 50px !important;
+}
+
+.contentScroller{
+	display: block;
+}
+
+.footer {
+     margin-top: -50px !important;
+}
+      
+ .panel {
+     width: 100%;
+     height:100%;
+     position:relative;
+     margin:auto auto 0 auto;
+     
+ }
+      
+ .emptyImage{
+ 	top:20%;
+ 	left: 37%;
+ 	position: absolute;
+ 	margin: auto;
+ }
